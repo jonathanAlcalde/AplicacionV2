@@ -9,10 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity
-            android:name=".Menu2Activity"
-            android:label="@string/title_activity_menu2"
-            android:theme="@style/NoActionBar"></activity>
         <activity android:name=".formulario" />
         <activity android:name=".MainActivity">
             <intent-filter>

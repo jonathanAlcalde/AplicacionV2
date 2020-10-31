@@ -31,9 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
     //Método logeo
     public void Ingresar(View view){
-        Intent ingre = new Intent(this, Menu2Activity.class);
         Toast.makeText(this,"Has ingresado con éxito",Toast.LENGTH_LONG).show();
-        startActivity(ingre);
     }
 
     //Método llamada telefónica
